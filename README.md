@@ -1,6 +1,6 @@
-# SpawnWarps
+# SpawnWarps  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
 
-Plugin de Spawn e Warps para Paper 1.21+
+Plugin de Spawn e Warps para Paper 1.21.1+
 
 ## Funcionalidades
 
@@ -65,14 +65,5 @@ O JAR será gerado em `target/spawn-warps-1.0.0.jar`
 
 ## Tecnologias
 
-- Paper API 1.21
+- Paper API 1.21.1
 - Adventure API (mensagens coloridas)
-- Teleporte assíncrono (Paper)
-
-## Autor
-
-Gean - Portfolio de desenvolvimento Minecraft
-
----
-
-**Licença**: MIT
