@@ -1,0 +1,31 @@
+# SpawnWarps - Configuração
+# Autor: Gean
+
+# Cooldown em segundos para teleportes
+teleport-cooldown: 3
+
+# Mensagens (suporta códigos de cor com &)
+messages:
+  prefix: "&8[&6SpawnWarps&8] &r"
+  spawn-set: "&aSpawn definido com sucesso!"
+  spawn-teleport: "&aTeleportando para o spawn..."
+  spawn-not-set: "&cO spawn ainda não foi definido!"
+  warp-created: "&aWarp &e{warp} &acriada com sucesso!"
+  warp-deleted: "&cWarp &e{warp} &cdeletada!"
+  warp-teleport: "&aTeleportando para &e{warp}&a..."
+  warp-not-found: "&cWarp &e{warp} &cnão encontrada!"
+  warp-exists: "&cJá existe uma warp com esse nome!"
+  warp-list: "&6Warps disponíveis: &e{warps}"
+  warp-list-empty: "&cNenhuma warp criada ainda."
+  cooldown: "&cAguarde &e{time}s &cpara teleportar novamente."
+  no-permission: "&cVocê não tem permissão para isso!"
+  player-only: "&cApenas jogadores podem usar este comando!"
+  usage-warp: "&cUso: /warp <nome>"
+  usage-setwarp: "&cUso: /setwarp <nome>"
+  usage-delwarp: "&cUso: /delwarp <nome>"
+
+# Spawn (não editar manualmente)
+spawn: null
+
+# Warps (não editar manualmente)
+warps: {}

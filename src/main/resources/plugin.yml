@@ -1,0 +1,43 @@
+name: SpawnWarps
+version: '${project.version}'
+main: com.portfolio.spawnwarps.SpawnWarps
+api-version: '1.21'
+author: Gean
+description: Sistema de Spawn e Warps
+
+commands:
+  spawn:
+    description: Teleporta ao spawn
+    usage: /spawn
+  setspawn:
+    description: Define o spawn do servidor
+    usage: /setspawn
+    permission: spawnwarps.setspawn
+  warp:
+    description: Teleporta para uma warp
+    usage: /warp <nome>
+  setwarp:
+    description: Cria uma nova warp
+    usage: /setwarp <nome>
+    permission: spawnwarps.setwarp
+  delwarp:
+    description: Deleta uma warp
+    usage: /delwarp <nome>
+    permission: spawnwarps.delwarp
+  warps:
+    description: Lista todas as warps
+    usage: /warps
+
+permissions:
+  spawnwarps.setspawn:
+    description: Permite definir o spawn
+    default: op
+  spawnwarps.setwarp:
+    description: Permite criar warps
+    default: op
+  spawnwarps.delwarp:
+    description: Permite deletar warps
+    default: op
+  spawnwarps.bypass.cooldown:
+    description: Ignora cooldown de teleporte
+    default: op
